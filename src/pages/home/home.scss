@@ -1,0 +1,19 @@
+page-home {
+.p{
+    font-size: 8px
+}
+ion-card-content{
+    padding-left:"20px"
+  }
+  .card-header-md + .card-content-md, .card-md .item + .card-content-md {
+    padding-left: 55px;
+}
+
+.card-header-md {
+    font-size: 1.6rem;
+    color: #222;
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+}

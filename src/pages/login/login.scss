@@ -1,0 +1,42 @@
+page-login {
+    .img1 {
+        max-width: 50%;
+        border: 0;
+       
+    }
+    
+    img {
+        max-width: 40%;
+        border: 0;
+       
+    }
+ 
+    margin-top: 30px;
+    .card-md {
+        margin: 10px;
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        /* font-size: 1.4rem; */
+        background: #f4f4f4;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+    
+
+    ion-app.md [padding-right] {
+        padding-right: 1px;
+    }
+    ion-app.md [padding-left] {
+        padding-left: 1px;
+    }
+    .button-md {
+        margin-left: 10px;
+        width: calc(100% - 20px);
+        border-radius: 5px;
+    }
+   
+//     ion-app.md [padding] {
+//     padding: 10px;
+// }
+
+}

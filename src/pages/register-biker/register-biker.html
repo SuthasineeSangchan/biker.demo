@@ -1,0 +1,234 @@
+<!--
+  Generated template for the RegisterBikerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+            <ion-buttons padding-left="1px" left>
+                    <button ion-button icon-only (click)="goback()">
+                        <ion-icon name="arrow-back"></ion-icon>
+                    </button>
+                </ion-buttons>
+        <ion-title>RegisterBiker</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div class="center">
+        <img class="circle-pic" margin-top="20px" margin-bottom="20px" src="assets/imgs/logo_bee.png" />
+    </div>
+
+
+    <div padding-left="20px" padding-right="20px" padding-top="20px">
+
+        <ion-card>
+
+            <div padding-top="10px" padding-bottom="20px">
+
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:10%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-person" md="md-person"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:45%;">
+                                <ion-input type="text" placeholder="ชื่อ"></ion-input>
+                            </div>
+                            <div style="display: table-cell; width:45%;">
+                                <ion-input type="text" placeholder="นามสกุล"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-mail" md="md-mail"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="อีเมล"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-call" md="md-call"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="number" placeholder="เบอร์โทรศัพท์"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="danger" padding-right="10px" ios="ios-call" md="md-call"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="number" placeholder="เบอร์โทรศัพท์ฉุกเฉิน"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-card" md="md-card"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="number" placeholder="หมายเลขบัตรประชาชน"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+
+                <ion-card-content margin-left="30px" padding-left="20px">
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+
+                            <div class="margin-left" style="display: table-cell; width:80%;" margin-left="46px">
+                                <ion-input margin-left="50px" type="text" placeholder="   รูปถ่ายบัตรประชาชน"></ion-input>
+                            </div>
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-cloud-upload" md="md-cloud-upload"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-home" md="md-home"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="ที่อยู่ตามบัตรประชาชน"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-home" md="md-home"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="ที่อยู่"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-mail" md="md-mail"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="รหัสไปรษณีย์"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-card" md="md-card"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="เลขทะเบียนรถ"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-paper" md="md-paper"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="text" placeholder="ชื่อบัญชีธนาคารกสิกรไทย (ถ้ามี)"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+                <ion-card-content>
+                    <!-- Add card content here! s-->
+                    <div style="display: table;">
+                        <div style="display: table-row; width:100%;">
+                            <div style="display: table-cell;">
+                                <ion-icon color="textgrayfade" padding-right="10px" ios="ios-paper" md="md-paper"></ion-icon>
+                            </div>
+                            <div style="display: table-cell; width:100%;">
+                                <ion-input type="number" placeholder="เลขบัญชีธนาคารกสิกรไทย (ถ้ามี)"></ion-input>
+                            </div>
+                        </div>
+                    </div>
+                </ion-card-content>
+
+
+            </div>
+
+        </ion-card>
+<!-- <div  style="text-align: center">
+        <div style="display: table-row;">
+            <div   style="display: table-cell;">
+                <p>ข้าพเจ้ายอมรับ   <u style="color: #488aff;">เงื่อนไขเเละข้อตกลง</u></p>
+            </div>
+            <div  style="display: table-cell;">
+                <u style="color: #488aff;">เงื่อนไขเเละข้อตกลง</u>
+            </div>
+        </div>
+    </div> -->
+    <p style="text-align: center">ข้าพเจ้ายอมรับ   <u style="color: #488aff;">เงื่อนไขเเละข้อตกลง</u></p>
+</div>
+
+
+    <source media="(min-width: )" srcset="">
+    <div class="center2" padding-left="20px" padding-right="20px" margin-bottom="20px">
+        <button  (click)="openPage2()" style="width:60%" color="themegreen" ion-button>ขอรหัสยืนยันทาง SMS</button>
+    </div>
+
+    <ion-item>
+        <p>{{imageURI}}</p>
+        <button ion-button color="secondary" (click)="getImage()">Get Image</button>
+      </ion-item>
+      <ion-item>
+        <h4>Image Preview</h4>
+        <img src="{{imageFileName}}" *ngIf="imageFileName" alt="Ionic File" width="300" />
+      </ion-item>
+      <ion-item>
+        <button ion-button (click)="uploadFile()">Upload</button>
+      </ion-item>
+  
+
+
+</ion-content>

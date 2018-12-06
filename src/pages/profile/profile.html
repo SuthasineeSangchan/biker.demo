@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{ 'PROFILE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+<div class="center">
+    <img class="circle-pic" margin-top="20px" margin-bottom="20px" src="assets/imgs/logo_bee.png" />
+</div>
+  
+<div padding="20px">
+  <ion-card>
+    <div padding-top="20px" padding-bottom="20px">
+    <ion-card-content>
+      <!-- Add card content here! s-->
+      <ion-icon color="textgray" padding-right="10px" ios="ios-person" md="md-person"></ion-icon>
+      {{name}}
+    </ion-card-content>
+    <ion-card-content>
+      <!-- Add card content here! s-->
+      <ion-icon color="textgray" padding-right="10px"  ios="ios-pin" md="md-pin"></ion-icon>
+      {{address}}
+    </ion-card-content>
+    <ion-card-content>
+      <!-- Add card content here! s-->
+      <ion-icon color="textgray" padding-right="10px" ios="ios-mail" md="md-mail"></ion-icon>
+      {{email}}
+    </ion-card-content>
+    <ion-card-content>
+      <!-- Add card content here! s-->
+      <ion-icon color="textgray" padding-right="10px" ios="ios-call" md="md-call"></ion-icon>
+      {{tell}}
+    </ion-card-content>
+    <ion-card-content>
+      <!-- Add card content here! s-->
+      <ion-icon color="danger" padding-right="10px" ios="ios-call" md="md-call"></ion-icon>
+      {{number_reserve}}
+    </ion-card-content>
+  </div>
+  </ion-card>
+
+</div><source media="(min-width: )" srcset="">
+
+
+<div class="center2" padding-left="20px" padding-right="20px">
+<button style="width:60%" color="themegreen" ion-button>{{ 'EDIT' | translate}}</button>
+</div>
+
+
+</ion-content>
